@@ -1,1 +1,312 @@
-const _0x526296=_0x27d5;(function(_0x5a167f,_0x156dbd){const _0x5461e4=_0x27d5,_0x2880dc=_0x5a167f();while(!![]){try{const _0x13b3d4=parseInt(_0x5461e4(0x1ef))/0x1*(-parseInt(_0x5461e4(0x1c2))/0x2)+-parseInt(_0x5461e4(0x1ad))/0x3*(parseInt(_0x5461e4(0x1f6))/0x4)+-parseInt(_0x5461e4(0x1a2))/0x5*(-parseInt(_0x5461e4(0x1f1))/0x6)+parseInt(_0x5461e4(0x1a5))/0x7+parseInt(_0x5461e4(0x1d4))/0x8*(-parseInt(_0x5461e4(0x1d9))/0x9)+-parseInt(_0x5461e4(0x1a8))/0xa+parseInt(_0x5461e4(0x1c9))/0xb;if(_0x13b3d4===_0x156dbd)break;else _0x2880dc['push'](_0x2880dc['shift']());}catch(_0x16123d){_0x2880dc['push'](_0x2880dc['shift']());}}}(_0x3e93,0x3d2bf));function _0x27d5(_0x5af911,_0x20b786){const _0x3e9344=_0x3e93();return _0x27d5=function(_0x27d5e1,_0x3468ac){_0x27d5e1=_0x27d5e1-0x1a2;let _0x486dab=_0x3e9344[_0x27d5e1];return _0x486dab;},_0x27d5(_0x5af911,_0x20b786);}const fs=require('fs'),StealthPlugin=require(_0x526296(0x1b6)),randchars=require(_0x526296(0x1ea)),puppeteer=require(_0x526296(0x1b5)),RecaptchaPlugin=require(_0x526296(0x1a7)),{uniqueNamesGenerator,NumberDictionary}=require(_0x526296(0x1b8)),{PuppeteerBlocker}=require(_0x526296(0x1e3)),{fetch}=require(_0x526296(0x1af)),ps=require('prompt-sync'),prompt=ps(),colors=require(_0x526296(0x1d7)),setTitle=require(_0x526296(0x1f8));function sleep(_0x1d071c){return new Promise(_0xbb782d=>setTimeout(_0xbb782d,_0x1d071c));}setTitle(_0x526296(0x1d5));async function main(){const _0xe5fef4=_0x526296;console[_0xe5fef4(0x1a4)](),_0xe5fef4(0x1e8),console[_0xe5fef4(0x1fb)](_0xe5fef4(0x1a6));let _0x27fdac=prompt('\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x1b[37m[\x20OPTION\x20]\x20');if(_0x27fdac==0x1){console['log'](''),console[_0xe5fef4(0x1fb)](_0xe5fef4(0x1ae)+'1'[_0xe5fef4(0x1ca)]+_0xe5fef4(0x1cd)),console[_0xe5fef4(0x1fb)](_0xe5fef4(0x1ae)+'2'[_0xe5fef4(0x1ca)]+_0xe5fef4(0x1fd)),console[_0xe5fef4(0x1fb)]('\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20['+'3'[_0xe5fef4(0x1ca)]+']\x20Gmails'),console[_0xe5fef4(0x1fb)]('');let _0x12fee2=prompt('\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x1b[37m[\x20OPTION\x20]\x20'),_0x11adf7=prompt(_0xe5fef4(0x1d3)),_0x5b64ee=prompt(_0xe5fef4(0x1f2));const _0x2a7fbc={'args':[_0xe5fef4(0x1ab),_0xe5fef4(0x1ee),_0xe5fef4(0x1f5),_0xe5fef4(0x1ac),_0xe5fef4(0x1aa)],'defaultViewport':null,'ignoreHTTPSErrors':!![],'headless':![]};puppeteer['use'](StealthPlugin()),puppeteer['use'](RecaptchaPlugin({'provider':{'id':_0xe5fef4(0x1f0)},'visualFeedback':!![],'throwOnError':!![]}));const _0x4b1161=fs[_0xe5fef4(0x1ce)](_0xe5fef4(0x1f7),{'flags':'a'});async function _0x155b69(_0x330cd4,_0x2536b8,_0x5df3b3){const _0x3f95d6=_0xe5fef4,_0x1b2738=await _0x330cd4['$']('input[name='+_0x2536b8+']');await _0x1b2738[_0x3f95d6(0x1c6)](),await _0x330cd4['keyboard'][_0x3f95d6(0x1e5)](_0x5df3b3);}async function _0x26715e(_0x39faf1,_0x3cac02,_0x1bfafd,_0x3c4c65){const _0x574cce=_0xe5fef4;var _0xfdd421=await _0x39faf1['$']('[class*=input'+_0x3cac02+']');_0xfdd421===null&&(_0xfdd421=await _0x39faf1['$'](_0x574cce(0x1c5)+_0x3cac02+']'));await _0xfdd421['click']();var _0x22500a=Math['floor'](Math[_0x574cce(0x1bf)]()*(_0x3c4c65-_0x1bfafd+0x1))+_0x1bfafd;return await _0x39faf1[_0x574cce(0x1e0)](_0x574cce(0x1cc)),await _0x39faf1[_0x574cce(0x1bc)](_0x574cce(0x1cb),function(_0x45e437,_0x939847){const _0x3321e9=_0x574cce;_0x45e437[_0x3321e9(0x1e1)][_0x3321e9(0x1b0)][_0x939847]['click']();},_0x22500a),_0x22500a;}async function _0xc21df6(_0x53eb39,_0x54fd2b,_0x290d43,_0x520b20){const _0x1ca09d=_0xe5fef4;await _0x53eb39[_0x1ca09d(0x1b3)](),await _0x53eb39[_0x1ca09d(0x1d8)](_0x1ca09d(0x1cf),{'waitUntil':'networkidle0','timeout':0x11170}),await _0x26715e(_0x53eb39,'year',0x11,0x18),await _0x26715e(_0x53eb39,_0x1ca09d(0x1db),0x0,0x1c),await _0x26715e(_0x53eb39,_0x1ca09d(0x1b2),0x0,0xb),_0x53eb39[_0x1ca09d(0x1e0)]('input[type*=checkbox]')[_0x1ca09d(0x1e6)](()=>{const _0x538a3d=_0x1ca09d;_0x53eb39[_0x538a3d(0x1bc)](_0x538a3d(0x1c7),_0x6f952b=>_0x6f952b['click']());})['catch'](_0x412915=>{}),await _0x155b69(_0x53eb39,'username',_0x54fd2b),await _0x155b69(_0x53eb39,_0x1ca09d(0x1a3),_0x290d43),await _0x155b69(_0x53eb39,'email',_0x520b20),await _0x53eb39[_0x1ca09d(0x1bc)](_0x1ca09d(0x1ed),_0x197c5c=>_0x197c5c[_0x1ca09d(0x1b7)]());}async function _0xee96e8(_0xb238a3){const _0x250979=_0xe5fef4;try{await _0xb238a3['waitForSelector'](_0x250979(0x1d1)),await _0xb238a3[_0x250979(0x1fa)]({'content':_0x250979(0x1e2)});while(!![]){try{return await _0xb238a3['solveRecaptchas'](),!![];}catch(_0x1d6d92){sleep(0xbb8);}}}catch(_0x34bad4){};}async function _0x5a6a16(_0x311ddf){const _0x4d0679=_0xe5fef4;if(_0x12fee2==0x1){PuppeteerBlocker[_0x4d0679(0x1de)](fetch)['then'](_0x26a2cf=>{const _0x5b998c=_0x4d0679;_0x26a2cf[_0x5b998c(0x1ba)](_0x311ddf);}),await _0x311ddf[_0x4d0679(0x1b3)](),await _0x311ddf[_0x4d0679(0x1d8)]('https://temp-mail.org/',{'waitUntil':_0x4d0679(0x1b4),'timeout':0x0});var _0x929f44='#mail';try{await _0x311ddf[_0x4d0679(0x1e0)](_0x929f44),await _0x311ddf[_0x4d0679(0x1c4)](_0x1c63f8=>document[_0x4d0679(0x1da)](_0x1c63f8)[_0x4d0679(0x1d2)][_0x4d0679(0x1f9)]('@')!=-0x1,{},_0x929f44);var _0x1556ce=await _0x311ddf[_0x4d0679(0x1bc)](_0x4d0679(0x1c8),_0x1033e3=>_0x1033e3['value']);return _0x1556ce;}catch(_0x3e85e9){return![];}}else{if(_0x12fee2==0x2){PuppeteerBlocker['fromPrebuiltAdsAndTracking'](fetch)['then'](_0x540b22=>{const _0x434407=_0x4d0679;_0x540b22[_0x434407(0x1ba)](_0x311ddf);}),await _0x311ddf[_0x4d0679(0x1b3)](),await _0x311ddf['goto']('https://10minemail.com/',{'waitUntil':_0x4d0679(0x1b4),'timeout':0x0});var _0x929f44=_0x4d0679(0x1c8);try{await _0x311ddf[_0x4d0679(0x1e0)](_0x929f44),await _0x311ddf[_0x4d0679(0x1c4)](_0xa70324=>document[_0x4d0679(0x1da)](_0xa70324)[_0x4d0679(0x1d2)][_0x4d0679(0x1f9)]('@')!=-0x1,{},_0x929f44);var _0x1556ce=await _0x311ddf[_0x4d0679(0x1bc)](_0x4d0679(0x1c8),_0x446b41=>_0x446b41['value']);return _0x1556ce;}catch(_0x13615d){return![];}}else{if(_0x12fee2==0x3){PuppeteerBlocker[_0x4d0679(0x1de)](fetch)['then'](_0xcf5925=>{const _0x1b4f9c=_0x4d0679;_0xcf5925[_0x1b4f9c(0x1ba)](_0x311ddf);}),await _0x311ddf[_0x4d0679(0x1b3)](),await _0x311ddf['goto']('https://tempmail.dev/en/Gmail',{'waitUntil':_0x4d0679(0x1b4),'timeout':0x0});var _0x929f44='#current-mail';try{await _0x311ddf[_0x4d0679(0x1e0)](_0x4d0679(0x1e7));const _0x4501fb=await _0x311ddf['$'](_0x4d0679(0x1e7)),_0x577da9=await _0x311ddf[_0x4d0679(0x1eb)](_0x3ed9f3=>_0x3ed9f3['textContent'],_0x4501fb);return _0x577da9;}catch(_0x2a5da0){return![];}}}}}async function _0x35e90c(_0x5f21e1){const _0x9df5cd=_0xe5fef4;await _0x5f21e1[_0x9df5cd(0x1b3)]();if(_0x12fee2==0x1)while(!![]){try{await _0x5f21e1[_0x9df5cd(0x1e0)](_0x9df5cd(0x1dd),{'timeout':0x1f4}),await _0x5f21e1['$eval'](_0x9df5cd(0x1dd),_0xd2b845=>_0xd2b845[_0x9df5cd(0x1e1)][_0x9df5cd(0x1b7)]()),await _0x5f21e1[_0x9df5cd(0x1e0)](_0x9df5cd(0x1fc));const _0x4ac2d0=await _0x5f21e1[_0x9df5cd(0x1bc)]('td\x20>\x20a[href*=\x27discord\x27][style*=background]',_0x262b7e=>_0x262b7e[_0x9df5cd(0x1df)]);return _0x4ac2d0;}catch(_0x21b723){};}else{if(_0x12fee2==0x2)while(!![]){try{await _0x5f21e1[_0x9df5cd(0x1e0)](_0x9df5cd(0x1dd),{'timeout':0x1f4}),await _0x5f21e1[_0x9df5cd(0x1bc)](_0x9df5cd(0x1dd),_0x43e72a=>_0x43e72a[_0x9df5cd(0x1e1)][_0x9df5cd(0x1b7)]()),await _0x5f21e1[_0x9df5cd(0x1e0)](_0x9df5cd(0x1fc));const _0xc9f6b9=await _0x5f21e1['$eval'](_0x9df5cd(0x1fc),_0x3126ad=>_0x3126ad[_0x9df5cd(0x1df)]);return _0xc9f6b9;}catch(_0x4f9915){};}else{if(_0x12fee2==0x3)while(!![]){try{await _0x5f21e1[_0x9df5cd(0x1e0)]('#inbox-dataList'),await _0x5f21e1['click'](_0x9df5cd(0x1d0)),await _0x5f21e1[_0x9df5cd(0x1e0)](_0x9df5cd(0x1fc));const _0x43e883=await _0x5f21e1[_0x9df5cd(0x1bc)]('td\x20>\x20a[href*=\x27discord\x27][style*=background]',_0x4cf089=>_0x4cf089[_0x9df5cd(0x1df)]);return _0x43e883;}catch(_0x2f3fde){};}}}}async function _0xa71200(_0x57e9b8,_0x2c82f1){const _0x50748b=_0xe5fef4,_0x189521=await _0x57e9b8[_0x50748b(0x1c0)]();await _0x189521['goto'](_0x2c82f1,{'waitUntil':_0x50748b(0x1f4),'timeout':0xea60}),await sleep(0x2ee0);}const _0xe24d7e=['|\x20'+_0x11adf7],_0x4d852b=NumberDictionary[_0xe5fef4(0x1e9)]({'min':0x1,'max':0x1869f,'length':0x6});async function _0x237093(_0x1af1ef,_0x3e8770){const _0x4ff12e=_0xe5fef4,_0x35cbbb=uniqueNamesGenerator({'dictionaries':[_0x4d852b,_0xe24d7e],'separator':'\x20','style':_0x4ff12e(0x1dc),'length':0x2}),_0xbc78d8=randchars['randomBytes'](0xa)[_0x4ff12e(0x1f3)](_0x4ff12e(0x1bd)),_0xaa3777=(await _0x1af1ef[_0x4ff12e(0x1e4)]())[0x0];var _0x14e14e;while(!_0x14e14e){try{_0x14e14e=await _0x5a6a16(_0xaa3777);}catch(_0x2b20d9){};}const _0xe72136=_0x3e8770;await _0xc21df6(_0xe72136,_0x35cbbb,_0xbc78d8,_0x14e14e);const _0x1e647b=_0x3e8770['_client'];var _0x1b7062;_0x1e647b['on'](_0x4ff12e(0x1a9),({response:_0x521fae})=>{const _0x59decc=_0x4ff12e;try{const _0x17f0af=JSON[_0x59decc(0x1b9)](_0x521fae[_0x59decc(0x1bb)]);!_0x1b7062&&_0x17f0af['d'][_0x59decc(0x1d6)]&&(_0x1b7062=_0x17f0af['d'][_0x59decc(0x1d6)]);;}catch(_0x88b46b){};}),await _0xee96e8(_0xe72136);let _0x1dd1ae=await _0x35e90c(_0xaa3777);return console[_0x4ff12e(0x1fb)](_0x4ff12e(0x1c3)),await _0xa71200(_0x1af1ef,_0x1dd1ae),_0x35cbbb+':'+_0x14e14e+':'+_0xbc78d8+':'+_0x1b7062+_0x4ff12e(0x1b1);}((async()=>{const _0xe2d396=_0xe5fef4;var _0x398541;for(let _0x478787=0x0;_0x478787<_0x5b64ee;_0x478787++){const _0x29004f=await puppeteer[_0xe2d396(0x1c1)](_0x2a7fbc);try{const _0x220f8c=await _0x29004f[_0xe2d396(0x1c0)](),_0xe5eeaf=await _0x237093(_0x29004f,_0x220f8c);_0x4b1161[_0xe2d396(0x1ec)](_0xe5eeaf+'\x0a');}catch(_0x535859){console['log'](_0x535859);}finally{try{_0x29004f[_0xe2d396(0x1be)](),await sleep(0x18c7c);}catch(_0x1ab895){};}}})());}else _0x27fdac==0x2?await sleep(0x3e8):(console['log']('\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x1b[37m[\x20ERROR\x20]'),sleep(0x44c),main());}function _0x3e93(){const _0x3baf9a=['--window-position=0,0','98913DBNGpA','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20[','cross-fetch','childNodes',':discord.gg/lboost','month','bringToFront','networkidle2','puppeteer-extra','puppeteer-extra-plugin-stealth','click','unique-names-generator','parse','enableBlockingInPage','payloadData','$eval','hex','close','random','newPage','launch','26uuEIPa','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x1b[37m[\x20PASSED\x20]','waitForFunction','[class*=','focus','input[type*=checkbox]','#mail','4173862EsbnzU','brightRed','[class$=option]','[class*=option]',']\x20Temp-mail','createWriteStream','https://discord.com/register','#inbox-dataList','[src*=sitekey]','value','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x1b[37m[\x20CONFIG\x20]\x20Token\x20Username?\x20','1802680jAAwkz','Luxury\x20Services\x20Token\x20Generator\x20|\x20V.1','token','colors','goto','9odGdcr','querySelector','day','capital','[title*=Discord]','fromPrebuiltAdsAndTracking','href','waitForSelector','parentNode','hcaptcha.execute()','@cliqz/adblocker-puppeteer','pages','type','then','#current-mail','use-scrict','generate','crypto','evaluate','write','button[type=submit]','--disable-setuid-sandbox','20141LZQYcO','2captcha','6sKeCnn','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x1b[37m[\x20CONFIG\x20]\x20How\x20many\x20tokens?\x20','toString','networkidle0','--disable-infobars','28RKRhZu','tokens.txt','node-bash-title','indexOf','addScriptTag','log','td\x20>\x20a[href*=\x27discord\x27][style*=background]',']\x2010minemail','1749920ToWtsz','password','clear','3211110ClDtcf','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Luxury\x20Services\x20Token\x20Generator\x0a\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x1b[37m[\x1b[31m1\x1b[37m]\x20Generation\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x1b[37m[\x1b[31m2\x1b[37m]\x20Exit\x0a\x09','puppeteer-extra-plugin-recaptcha','2196320xiAyJx','Network.webSocketFrameSent','--window-size=1366,768','--no-sandbox'];_0x3e93=function(){return _0x3baf9a;};return _0x3e93();}main();
+//libs
+const fs = require('fs');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth')
+const randchars = require("crypto")
+const puppeteer = require('puppeteer-extra')
+const RecaptchaPlugin = require('puppeteer-extra-plugin-recaptcha')
+const { uniqueNamesGenerator,  NumberDictionary } = require('unique-names-generator')
+const { PuppeteerBlocker } = require('@cliqz/adblocker-puppeteer')
+const {fetch} = require('cross-fetch')
+const ps = require('prompt-sync')
+const prompt = ps();
+const colors = require('colors');
+const setTitle = require('node-bash-title');
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+setTitle('Luxury Services Generator | V.4');
+
+async function main(){
+  console.clear()
+
+  'use-scrict';
+
+
+
+  console.log(`
+                                                       Luxury Services Twitch Generator
+                                                     \x1b[37m[\x1b[31m1\x1b[37m] Generation 
+                                                     \x1b[37m[\x1b[31m2\x1b[37m] Exit
+	`);
+  let choice = prompt('                                                     \x1b[37m[ OPTION ] ')
+
+  if(choice == 1){
+    console.log('')
+    console.log('                                                     ['+'1'.brightRed+'] Temp-mail');
+    console.log('                                                     ['+'2'.brightRed+'] 10minemail');
+    console.log('                                                     ['+'3'.brightRed+'] Gmails');
+    console.log('')
+    let emailchoice = prompt('                                                     \x1b[37m[ OPTION ] ');
+    let tokensname = prompt('                                                     \x1b[37m[ CONFIG ] Token Username? ');
+    let HowTokens = prompt('                                                     \x1b[37m[ CONFIG ] How many tokens? ');
+
+    const cfg = {
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-infobars',
+        '--window-position=0,0',
+        '--window-size=1366,768',
+      ],
+      defaultViewport: null,
+      ignoreHTTPSErrors: true,
+      headless: false,
+    }
+
+    puppeteer.use(StealthPlugin())
+    puppeteer.use(
+      RecaptchaPlugin({
+        provider: {
+          id: '2captcha',
+          token: ''
+        },
+        visualFeedback: true,
+        throwOnError: true
+      })
+    )
+
+    const accounts = fs.createWriteStream('tokens.txt', {flags:'a'})
+    async function dsne(page, infoname, info){
+      const p = await page.$('input[name=' + infoname + ']');
+      await p.focus();
+      await page.keyboard.type(info);
+    }
+
+    async function cli(page, name, min, max) {
+      var i = await page.$('[class*=input' + name + "]");
+      if (i === null) {
+        i = await page.$("[class*=" + name + "]");
+      }
+      await i.click();
+      var r = Math.floor(Math.random() * (max - min + 1)) + min;
+
+      await page.waitForSelector('[class*=option]');
+      await page.$eval("[class$=option]", function(e, r){e.parentNode.childNodes[r].click()}, r);
+
+      return r
+    }
+
+    async function discordInput(dspagee, username, password, email){
+      await dspagee.bringToFront();
+      await dspagee.goto('https://discord.com/register', {"waitUntil" : "networkidle0", timeout: 70000});
+
+      await cli(dspagee, "year", 17, 24);
+      await cli(dspagee, "day", 0, 28);
+      await cli(dspagee, "month", 0, 11);
+
+      dspagee.waitForSelector('input[type*=checkbox]').then(() => {
+        dspagee.$eval('input[type*=checkbox]', el => el.click());
+      }).catch(e => {});
+
+      await dsne(dspagee, "username", username);
+      await dsne(dspagee, "password", password);
+      await dsne(dspagee, "email", email);
+      await dspagee.$eval('button[type=submit]', (el) => el.click());
+
+    }
+
+    async function captchaby(DiscordPage){
+      try {
+        await DiscordPage.waitForSelector('[src*=sitekey]');
+        await DiscordPage.addScriptTag({content: `hcaptcha.execute()`})
+  
+        while(true){
+          try{
+            await DiscordPage.solveRecaptchas();
+            return true;
+          } catch(err) {
+            sleep(3000);
+          }
+        }
+      } catch(e){
+      };
+    }
+
+    async function genmail(page2){
+      if(emailchoice == 1){
+        PuppeteerBlocker.fromPrebuiltAdsAndTracking(fetch).then((blocker) => {
+          blocker.enableBlockingInPage(page2);
+        });
+
+        await page2.bringToFront();
+        await page2.goto("https://temp-mail.org/", { waitUntil: 'networkidle2', timeout: 0});
+        var info_id = "#mail";
+
+        try {
+          await page2.waitForSelector(info_id);
+          await page2.waitForFunction((info_id) => document.querySelector(info_id).value.indexOf("@") != -1, {}, info_id);
+          
+          var email = await page2.$eval('#mail', el => el.value);
+          return email;
+        } catch(e){
+          return false;
+      }}
+
+      else if(emailchoice == 2){
+        PuppeteerBlocker.fromPrebuiltAdsAndTracking(fetch).then((blocker) => {
+          blocker.enableBlockingInPage(page2);
+        });
+
+        await page2.bringToFront();
+        await page2.goto("https://10minemail.com/", { waitUntil: 'networkidle2', timeout: 0});
+        var info_id = "#mail";
+
+        try {
+          await page2.waitForSelector(info_id);
+          await page2.waitForFunction((info_id) => document.querySelector(info_id).value.indexOf("@") != -1, {}, info_id);
+          
+          var email = await page2.$eval('#mail', el => el.value);
+          return email;
+        } catch(e){
+          return false;
+    }}
+
+      else if(emailchoice == 3){
+        PuppeteerBlocker.fromPrebuiltAdsAndTracking(fetch).then((blocker) => {
+          blocker.enableBlockingInPage(page2);
+        });
+
+        await page2.bringToFront();
+        await page2.goto("https://tempmail.dev/en/Gmail", { waitUntil: 'networkidle2', timeout: 0});
+        var info_id = "#current-mail";
+
+        try {     
+          await page2.waitForSelector('#current-mail');
+          const element = await page2.$("#current-mail");
+          const email = await page2.evaluate(element => element.textContent, element);
+          return email;
+        } catch(e){
+          return false;
+      }
+    }
+  }
+
+    async function emailvery(page2){
+      await page2.bringToFront();
+      if(emailchoice == 1){
+        while(true){
+          try {
+            await page2.waitForSelector('[title*=Discord]', {timeout: 500});
+            await page2.$eval('[title*=Discord]', e => e.parentNode.click());
+          
+            await page2.waitForSelector("td > a[href*='discord'][style*=background]");
+            const elem = await page2.$eval("td > a[href*='discord'][style*=background]", el => el.href);
+          
+            return elem;
+          } catch(e){};
+        }
+      }else if(emailchoice == 2){
+        while(true){
+          try {
+            await page2.waitForSelector('[title*=Discord]', {timeout: 500});
+            await page2.$eval('[title*=Discord]', e => e.parentNode.click());
+          
+            await page2.waitForSelector("td > a[href*='discord'][style*=background]");
+            const elem = await page2.$eval("td > a[href*='discord'][style*=background]", el => el.href);
+          
+            return elem;
+          } catch(e){};
+        }
+      }else if(emailchoice == 3){
+        while(true){
+          try {
+            await page2.waitForSelector('#inbox-dataList');
+            await page2.click('#inbox-dataList');
+          
+            await page2.waitForSelector("td > a[href*='discord'][style*=background]");
+            const elem = await page2.$eval("td > a[href*='discord'][style*=background]", el => el.href);
+          
+            return elem;
+          } catch(e){};
+        }
+      }
+    }
+
+    async function verif2(chrom, link){
+      const page = await chrom.newPage();
+      await page.goto(link, {"waitUntil" : "networkidle0", "timeout": 60000});
+      captchaby(page);
+      await sleep(12000)
+      }
+
+    const nickname = [
+        `| ${tokensname}`
+    ];
+
+    const numberDictionary = NumberDictionary.generate({ min: 1, max: 99999, length: 6, });
+
+    async function create_accinfos(chrome, disc) {
+      const username = uniqueNamesGenerator({dictionaries: [numberDictionary, nickname],  separator: ' ', style: "capital",length: 2,});
+      const password = randchars.randomBytes(10).toString('hex');
+      const page2 = (await chrome.pages())[0];
+      var email;
+
+      while(!email){
+        try {
+          email = await genmail(page2);
+        } catch(e){};
+      }
+
+
+      const dspage = disc;
+      await discordInput(dspage, username, password, email);
+
+      const client = disc._client;
+      var token;
+
+      client.on('Network.webSocketFrameSent', ({response}) => {
+        try {
+          const json = JSON.parse(response.payloadData);
+          if(!token && json["d"]["token"]){
+            token = json["d"]["token"];
+          };
+        } catch(e){};
+      })
+      await captchaby(dspage);
+
+      let verifyy = await emailvery(page2);                                       
+      console.log('                                                     \x1b[37m[ PASSED ]')
+      await verif2(chrome, verifyy);
+      //Write token to tokensonly.txt
+      fs.appendFileSync('tokensonly.txt', `${token}\n`);
+
+      return `${username}:${email}:${password}:${token}:discord.gg/lboost`;
+    }
+    
+
+    (async () => {
+
+      var token;
+
+      for (let i = 0; i < HowTokens; i++) {
+        const browser = await puppeteer.launch(cfg);
+        try {
+          const page = await browser.newPage();
+          const infos = await create_accinfos(browser, page);
+          accounts.write(infos + "\n"); 
+        } catch(e) {
+          console.log(e);
+        } finally {
+          try{
+            browser.close();
+            await sleep(101500)
+          } catch(e){};
+        }
+      }
+    })();
+  }
+
+  else if(choice == 2){
+    await sleep(1000);
+  }
+
+  else{
+    console.log('                                                     \x1b[37m[ ERROR ]');
+    sleep(1100)
+    main()
+  }
+}
+
+main()
