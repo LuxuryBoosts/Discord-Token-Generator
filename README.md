@@ -4,4 +4,6 @@ discord is https://discord.gg/lboost and Luxury OT#0002 Telegram Is https://t.me
 
 Please leave a review or a star letting other people know how it works. Node is required to install for it to function. Join Discord/Telegram for support
 
-The Generator Creates Email Verified Tokens from Temp-Mail Websites.
+The Generator Creates Email Verified Tokens from Temp-Mail Websites. 
+
+THE GENERATOR ITSSELF ISN'T AUTOMATED, IT FILLS IN ALL THE INFO, YOU AS THE USER ARE REQUIRED TO FINISH THE CAPATCHA
