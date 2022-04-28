@@ -7,3 +7,7 @@ Please leave a review or a star letting other people know how it works. Node is 
 The Generator Creates Email Verified Tokens from Temp-Mail Websites. 
 
 THE GENERATOR ITSSELF ISN'T AUTOMATED, IT FILLS IN ALL THE INFO, YOU AS THE USER ARE REQUIRED TO FINISH THE CAPATCHA
+
+Getting Really Good Feedback for this, People asking about when it'll be fully automated.
+
+At 50 Stars, im dropping it.
